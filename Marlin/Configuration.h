@@ -1098,6 +1098,8 @@
 //============================== Endstop Settings ===========================
 //===========================================================================
 
+// Read endstop status with command M119
+
 // @section endstops
 
 // Enable pullup for all endstops to prevent a floating state
