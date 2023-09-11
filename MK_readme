@@ -12,6 +12,8 @@ M119 query status of endstops
 **********************************************************
 /* FANS */
 **********************************************************
+FAN1 P1 - Head cooling fan
+FAN2 P2 = Part cooling fan
 FAN3 P3 - 24V LED strip on heating bed
 FAN4 P4 - 24V fan for board cooling
 FAN5 P5 - 24V fan for board cooling
