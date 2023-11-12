@@ -117,6 +117,7 @@ void menu_advanced_settings();
     TemporaryGlobalEndstopsState temp(true);
     ui.defer_status_screen(true);
     const Endstops::endstop_mask_t stops = endstops.state();
+    (void)stops;
 
     START_SCREEN();
     STATIC_ITEM_F(GET_TEXT_F(MSG_ENDSTOP_TEST), SS_DEFAULT|SS_INVERT);
